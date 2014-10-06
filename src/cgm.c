@@ -109,7 +109,7 @@ static const uint8_t const LOW_BG_MGDL = 80;
 
 static const uint16_t const HIGH_BG_MGDL = 180;
 static const uint16_t const MIDHIGH_BG_MGDL = 240;
-static const uint16_t const BIGHIGH_BG_MGDL = 300;
+static const uint16_t const BIGHIGH_BG_MGDL = 280;
 
 // BG Ranges, MMOL
 // VALUES ARE IN INT, NOT FLOATING POINT, LAST DIGIT IS DECIMAL
@@ -129,13 +129,13 @@ static const uint16_t const BIGHIGH_BG_MMOL = 166;
 // BG Snooze Times, in Minutes; controls when vibrate again
 // RANGE 0-240
 static const uint8_t const SPECVALUE_SNZ_MIN = 30;
-static const uint8_t const HYPOLOW_SNZ_MIN = 5;
-static const uint8_t const BIGLOW_SNZ_MIN = 5;
-static const uint8_t const MIDLOW_SNZ_MIN = 10;
-static const uint8_t const LOW_SNZ_MIN = 15;
-static const uint8_t const HIGH_SNZ_MIN = 30;
-static const uint8_t const MIDHIGH_SNZ_MIN = 30;
-static const uint8_t const BIGHIGH_SNZ_MIN = 30;
+static const uint8_t const HYPOLOW_SNZ_MIN = 1;
+static const uint8_t const BIGLOW_SNZ_MIN = 1;
+static const uint8_t const MIDLOW_SNZ_MIN = 1;
+static const uint8_t const LOW_SNZ_MIN = 5;
+static const uint8_t const HIGH_SNZ_MIN = 20;
+static const uint8_t const MIDHIGH_SNZ_MIN = 20;
+static const uint8_t const BIGHIGH_SNZ_MIN = 15;
 
 // Vibration Levels; 0 = NONE; 1 = LOW; 2 = MEDIUM; 3 = HIGH
 // IF YOU DO NOT WANT A SPECIFIC VIBRATION, SET TO 0
@@ -153,8 +153,8 @@ static const uint8_t const PHONEOUT_VIBE = 3;
 // Icon Cross Out & Vibrate Once Wait Times, in Minutes
 // RANGE 0-240
 // IF YOU WANT TO WAIT LONGER TO GET CONDITION, INCREASE NUMBER
-static const uint8_t const CGMOUT_WAIT_MIN = 10;
-static const uint8_t const PHONEOUT_WAIT_MIN = 5;
+static const uint8_t const CGMOUT_WAIT_MIN = 15;
+static const uint8_t const PHONEOUT_WAIT_MIN = 10;
 
 // Control Messages
 // IF YOU DO NOT WANT A SPECIFIC MESSAGE, SET TO true
